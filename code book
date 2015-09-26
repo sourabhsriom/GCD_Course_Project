@@ -1,0 +1,57 @@
+==================================================================
+This codebook describes the run_analysis program, its variables 
+and the the calculations done on the.
+==================================================================
+
+The data given to us is from 30 different users. 24 of them have been randomly selected to populate the training data set. 
+The remaining 6 form the test data set.
+
+For each record we have been provided:
+======================================
+
+- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+- Triaxial Angular velocity from the gyroscope. 
+- A 561-feature vector with time and frequency domain variables. 
+- Its activity label. 
+- An identifier of the subject who carried out the experiment.
+
+The dataset included the following files:
+=========================================
+
+- 'README.txt'
+
+- 'features_info.txt': Shows information about the variables used on the feature vector.
+
+- 'features.txt': List of all features which are the variables that we will be analysing.
+
+- 'activity_labels.txt': Links the class labels with their activity name i.e. it links the numeric values assigned to an activity to the activity name.
+
+- 'train/X_train.txt': Training set. Contains 24 users.
+
+- 'train/y_train.txt': Training labels. Contains the numeric ID of the training users.
+
+- 'test/X_test.txt': Test set.
+
+- 'test/y_test.txt': Test labels. Contains the numeric ID of the test users
+
+
+The following files are available for the train and test data. Their descriptions are equivalent. 
+
+- 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
+
+- 'train/Inertial Signals/total_acc_x_train.txt': The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'. Every row shows a 128 element vector. The same description applies for the 'total_acc_x_train.txt' and 'total_acc_z_train.txt' files for the Y and Z axis. 
+
+- 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
+
+- 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
+
+Notes: 
+======
+- Features are normalized and bounded within [-1,1].
+- Each feature vector is a row on the text file.
+
+The file activity_names.txt present in this repository lists all the features that have been used to perform the analysis.
+Along with the names, berif description of all the activities and their units are mentioned.
+
+
+
